@@ -1,10 +1,22 @@
 [
   {
     "projectName": "My Friend List",
-    "link": "https://aditya-project.netlify.app/MyFriendList.html"
+    "link": "MyFriendList.html"
   },
   {
     "projectName": "5 Beautiful Quotes",
-    "link": "https://aditya-project.netlify.app/quotes.html"
+    "link": "quotes.html"
+  },
+  {
+    "projectName": "Using P Tag",
+    "link": "usingP.html"
+  },
+  {
+    "projectName": "Using Comment Tag",
+    "link": "usingComment.html"
+  },
+  {
+    "projectName": "Using Attribute",
+    "link": "usingAttribute.html"
   }
 ]
