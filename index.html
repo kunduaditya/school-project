@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects List</title>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #08091c;
+        font-family: poppins;
+        color: #ffffff;
+        max-height: 100vh;
+        text-align: center;
+      }
+      .code:hover,
+      .code:active,
+      .code {
+        color: #551a8b;
+      }
+      .footer-name {
+        display: flex;
+      }
+      .footer {
+        background-color: #19122c;
+        height: 70px;
+        width: 100%;
+        border-radius: 24px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        z-index: 5;
+        position: fixed;
+        top: 0;
+      }
+      .linksJI {
+        margin-top: 80px;
+      }
+      a {
+        font-size: 20px;
+        text-decoration: none;
+        color: #ffffff;
+        line-height: 2em;
+      }
+      a:hover {
+        color: wheat;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="footer">
+      <div class="footer-name">
+        <img
+          src="img/profile.jpg"
+          alt=""
+          height="60px"
+          style="border-radius: 50%"
+        />
+        <p style="margin-left: 20px">Builded By Aditya Kumar</p>
+      </div>
+      <div style="margin-right: 50px">
+        <p>Page Name:&nbsp;&nbsp;<code>Project Links</code></p>
+        <!--<br />
+          File Name:&nbsp;<code>index.html</code>-->
+      </div>
+    </div>
+    <div class="linksJI">
+      <h2>
+        Edit Content on
+        <a class="code" href="links.json"
+          ><code style="font-size: 25px">links.json</code></a
+        >
+      </h2>
+      <div id="myData"></div>
+      <script>
+        fetch("links.json")
+          .then(function (response) {
+            return response.json();
+          })
+          .then(function (data) {
+            appendData(data);
+          })
+          .catch(function (err) {
+            console.log("error: " + err);
+          });
+        function appendData(data) {
+          var mainContainer = document.getElementById("myData");
+          for (var i = 0; i < data.length; i++) {
+            var div = document.createElement("div");
+            div.innerHTML =
+              '<a href="' +
+              data[i].link +
+              '">' +
+              data[i].projectName +
+              "</a><br/>";
+            mainContainer.appendChild(div);
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>
