@@ -38,5 +38,9 @@
   {
     "projectName": "Thought Of The Day",
     "link": "thoughtOfTheDay.html"
+  },
+  {
+    "projectName": "Using Subscript and Superscript",
+    "link": "suingSubSuperScript.html"
   }
 ]
