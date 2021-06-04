@@ -50,5 +50,9 @@
   {
     "projectName": "Using Font Tag",
     "link": "usingFontTag.html"
+  },
+  {
+    "projectName": "Using FaceFont Tag",
+    "link": "usingFaceFontTag.html"
   }
 ]
