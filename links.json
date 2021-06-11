@@ -1,62 +1,87 @@
 [
   {
     "projectName": "My Friend List",
-    "link": "MyFriendList.html"
+    "link": "MyFriendList.html",
+    "target": "_self"
   },
   {
     "projectName": "5 Beautiful Quotes",
-    "link": "quotes.html"
+    "link": "quotes.html",
+    "target": "_self"
   },
   {
     "projectName": "Using Font Level Elements",
-    "link": "usingFontElements.html"
+    "link": "usingFontElements.html",
+    "target": "_self"
   },
   {
     "projectName": "Using HR Tag",
-    "link": "usingHr.html"
+    "link": "usingHr.html",
+    "target": "_self"
   },
   {
     "projectName": "Using Center Tag",
-    "link": "usingCenter.html"
+    "link": "usingCenter.html",
+    "target": "_self"
   },
   {
     "projectName": "Using P Tag",
-    "link": "usingP.html"
+    "link": "usingP.html",
+    "target": "_self"
   },
   {
     "projectName": "Using Comment Tag",
-    "link": "usingComment.html"
+    "link": "usingComment.html",
+    "target": "_self"
   },
   {
     "projectName": "Using Attribute",
-    "link": "usingAttribute.html"
+    "link": "usingAttribute.html",
+    "target": "_self"
   },
   {
     "projectName": "Using H Tags",
-    "link": "usinghTag.html"
+    "link": "usinghTag.html",
+    "target": "_self"
   },
   {
     "projectName": "Thought Of The Day",
-    "link": "thoughtOfTheDay.html"
+    "link": "thoughtOfTheDay.html",
+    "target": "_self"
   },
   {
     "projectName": "Using Subscript and Superscript",
-    "link": "suingSubSuperScript.html"
+    "link": "suingSubSuperScript.html",
+    "target": "_self"
   },
   {
     "projectName": "Using Pre Tag",
-    "link": "usingPreTag.html"
+    "link": "usingPreTag.html",
+    "target": "_self"
   },
   {
     "projectName": "Using Font Tag",
-    "link": "usingFontTag.html"
+    "link": "usingFontTag.html",
+    "target": "_self"
   },
   {
     "projectName": "Using BaseFont Tag",
-    "link": "usingBaseFontTag.html"
+    "link": "usingBaseFontTag.html",
+    "target": "_self"
   },
   {
     "projectName": "Using Logical Tag",
-    "link": "usingLogicalTags.html"
+    "link": "usingLogicalTags.html",
+    "target": "_self"
+  },
+  {
+    "projectName": "My Dog Walking.docx",
+    "link": "https://drive.google.com/file/d/1wu1Kfpk1Eoab5Av2-Iuf3IjdwcPV1qVx/view?usp=sharing",
+    "target": "_blank"
+  },
+  {
+    "projectName": "World Environment Day.pptx",
+    "link": "https://drive.google.com/file/d/1BTuuFbYvlqLCjRHN2R9h90cysP2R-yFL/view?usp=sharing",
+    "target": "_blank"
   }
 ]
