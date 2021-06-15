@@ -83,5 +83,10 @@
     "projectName": "World Environment Day.pptx",
     "link": "https://drive.google.com/file/d/1BTuuFbYvlqLCjRHN2R9h90cysP2R-yFL/view?usp=sharing",
     "target": "_blank"
+  },
+  {
+    "projectName": "Using Custom Background Image",
+    "link": "backgroundImage.html",
+    "target": "_self"
   }
 ]
