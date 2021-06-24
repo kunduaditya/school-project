@@ -88,5 +88,10 @@
     "projectName": "Using Custom Background Image",
     "link": "backgroundImage.html",
     "target": "_self"
+  },
+  {
+    "projectName": "God is Great <font color='red' >(HomeWork)</font>",
+    "link": "godIsGreat.html",
+    "target": "_self"
   }
 ]
