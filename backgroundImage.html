@@ -1,154 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Using Custom Background Image</title>
-    <link rel="stylesheet" href="global.css">
-    <style>
-      body {
-        margin: 0px;
-        padding: 0px;
-        background-color: #08091c;
-        color: #ffffff;
-        height: 100vh;
-        padding-top: 50px;
-        max-height: calc(100vh - 70px);
-      }
-      .div2{
-          background-image: url("https://images.unsplash.com/photo-1525711857929-4272fb4a040f");
-          width: 100%;
-          height: 100%;
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center;
-      }
-      code {
-        font-size: 15px;
-      }
-      .content {
-        text-align: center;
-        margin: 0;
-        padding: 0;
-      }
-      h2,
-      h1,
-      h3 {
-        margin: 0;
-        padding: 0;
-      }
-      h1 {
-        padding-top: 25px;
-        padding-bottom: 50px;
-      }
-      h3 {
-        padding-top: 50px;
-      }
-      h2 {
-        line-height: 2em;
-        width: 50%;
-        padding-left: 25%;
-        padding-right: 25%;
-        margin-bottom: 10px;
-      }
-      .footer {
-        background-color: #19122c;
-        height: 70px;
-        width: 100%;
-        border-radius: 24px;
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-        z-index: 5;
-        position: fixed;
-        top: 0;
-      }
-      img {
-        border-radius: 50%;
-        margin-left: 50px;
-      }
-      .footer-name {
-        display: flex;
-      }
-      .index {
-        font-size: 23px;
-      }
-      a:active,
-      a:hover,
-      a {
-        color: #551a8b;
-      }
-      .header {
-        display: flex;
-        justify-content: space-around;
-      }
-      .code{
-          margin: auto;
-          background-color: rgba(40, 44, 52, 0.6);
-          width: 75%;
-          padding: 10px;
-          border-radius: 24px;
-          text-align: left;
-      }
-      .comment{
-          color:  rgb(105, 121, 116);
-      }
-    </style>
-  </head>
-  <body>
-    <div class="footer">
-      <div class="footer-name">
-        <img src="img/profile.jpg" alt="" height="60px" />
-        <p style="margin-left: 20px;">Builded By Aditya Kumar</p>
-      </div>
-      <div style="margin-right: 50px">
-        <p>Project Name:&nbsp;&nbsp;<code>Using Custom Background Image</code></p>
-        <!--<br />
-          File Name:&nbsp;<code>index.html</code>-->
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Using Custom Background Image</title>
+  <link rel="stylesheet" href="global.css">
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+      background-color: #08091c;
+      color: #ffffff;
+      height: 100vh;
+      padding-top: 50px;
+      max-height: calc(100vh - 70px);
+    }
+
+    .div2 {
+      background-image: url("https://images.unsplash.com/photo-1525711857929-4272fb4a040f");
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    code {
+      font-size: 15px;
+    }
+
+    .content {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    h2,
+    h1,
+    h3 {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      padding-top: 25px;
+      padding-bottom: 50px;
+    }
+
+    h3 {
+      padding-top: 50px;
+    }
+
+    h2 {
+      line-height: 2em;
+      width: 50%;
+      padding-left: 25%;
+      padding-right: 25%;
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      background-color: #19122c;
+      height: 70px;
+      width: 100%;
+      border-radius: 24px;
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      z-index: 5;
+      position: fixed;
+      top: 0;
+    }
+
+    img {
+      border-radius: 50%;
+      margin-left: 50px;
+    }
+
+    .footer-name {
+      display: flex;
+    }
+
+    .index {
+      font-size: 23px;
+    }
+
+    a:active,
+    a:hover,
+    a {
+      color: #551a8b;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .code {
+      word-wrap: break-word;
+      margin: auto;
+      background-color: rgba(40, 44, 52, 0.6);
+      width: 75%;
+      padding: 10px;
+      border-radius: 24px;
+      text-align: left;
+    }
+
+    .comment {
+      color: rgb(105, 121, 116);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="footer">
+    <div class="footer-name">
+      <img src="img/profile.jpg" alt="" height="60px" />
+      <p style="margin-left: 20px;">Builded By Aditya Kumar</p>
     </div>
-    <div class="header">
-      <h3>
-        Edit Code on:&nbsp;&nbsp;<a
-          href="https://github.com/kunduaditya/school-project/blob/main/backgroundImage.html"
-          target="_blank"
-          ><code class="index">backgroundImage.html</code></a
-        >
-      </h3>
-      <h3>
-        <a href="index.html"
-          ><code class="view-all" style="font-size: 20px"
-            >View All Projects</code
-          ></a
-        >
-      </h3>
+    <div style="margin-right: 50px">
+      <p>Project Name:&nbsp;&nbsp;<code>Using Custom Background Image</code></p>
     </div>
-    <div class="content">
-      <h1>Using Custom Background Image</h1>
-      <div class="div2">
-        <h1>This is Very Own Custom History background</h1>
-        <p>We are Using Custom Background Image. But I was Unable to Use the Following Syntax:</p>
-        <div class="code">
-            <pre><code><font color="#E06253">&lt;div <i>class="content" background="https://images.unsplash.com/photo-1525711857929-4272fb4a040f"</i>&gt;</font>
+  </div>
+  <div class="header">
+    <h3>
+      Edit Code on:&nbsp;&nbsp;<a href="https://github.com/kunduaditya/school-project/blob/main/backgroundImage.html"
+        target="_blank"><code class="index">backgroundImage.html</code></a>
+    </h3>
+    <h3>
+      <a href="index.html"><code class="view-all" style="font-size: 20px">View All Projects</code></a>
+    </h3>
+  </div>
+  <div class="content">
+    <h1>Using Custom Background Image</h1>
+    <div class="div2">
+      <h1>This is Very Own Custom History background</h1>
+      <p>We are Using Custom Background Image. But I was Unable to Use the Following Syntax:</p>
+      <div class="code">
+        <div><code><font color="#E06253">&lt;div <i>class="content" background="https://images.unsplash.com/photo-1525711857929-4272fb4a040f"</i>&gt;</font>
+<font color="#89C363">&lt;h1&gt;<font color="#ffffff"><i>Using Custom Background Image</i></font>&lt;/h1&gt;</font>
+<font class="comment"><i>&lt;!-- Error is that the Background Image was Not Showing --&gt;</i></font>
+<font color="#E06253">&lt;/div&gt;</font></code></div>
+      </div>
+      <p>Working Method is</p>
+      <div class="code">
+        <font class="comment"><i>&lt;!-- Inside of &lt;head&gt; Tag --&gt;</i></font>
+        <br>
+        <font color="#89C363">&lt;head&gt;<br>
+          <font color="#E06253">&lt;style&gt;<br>&ensp;&ensp;<i>.content{<br>
+              <font color="#89C363">&ensp;&ensp;&ensp;&ensp;background-image:
+                url('https://images.unsplash.com/photo-1525711857929-4272fb4a040f');</font><br>}
+            </i><br>&lt;/style&gt;</font><br>
+          &lt;/head&gt;
+        </font>
+        <br>
+        <font class="comment"><i>&lt;!-- Inside of &lt;body&gt; Tag --&gt;</i></font>
+        <pre><code><font color="#E06253">&lt;div <i>class="content"</i>&gt;</font>
 <font color="#89C363">&lt;h1&gt;<font color="#ffffff"><i>Using Custom Background Image</i></font>&lt;/h1&gt;</font>
 <font class="comment"><i>&lt;!-- Error is that the Background Image was Not Showing --&gt;</i></font>
 <font color="#E06253">&lt;/div&gt;</font></code></pre>
-        </div>
-        <p>Working Method is</p>
-        <div class="code">
-            <font class="comment"><i>&lt;!-- Inside of &lt;head&gt; Tag --&gt;</i></font>
-            <br>
-            <font color="#89C363">&lt;head&gt;<br>
-                <font color="#E06253">&lt;style&gt;<br>&ensp;&ensp;<i>.content{<br><font color="#89C363">&ensp;&ensp;&ensp;&ensp;background-image: url('https://images.unsplash.com/photo-1525711857929-4272fb4a040f');</font><br>}</i><br>&lt;/style&gt;</font><br>
-                &lt;/head&gt;</font>
-            <br>
-            <font class="comment"><i>&lt;!-- Inside of &lt;body&gt; Tag --&gt;</i></font>
-            <pre><code><font color="#E06253">&lt;div <i>class="content"</i>&gt;</font>
-<font color="#89C363">&lt;h1&gt;<font color="#ffffff"><i>Using Custom Background Image</i></font>&lt;/h1&gt;</font>
-<font class="comment"><i>&lt;!-- Error is that the Background Image was Not Showing --&gt;</i></font>
-<font color="#E06253">&lt;/div&gt;</font></code></pre>
       </div>
     </div>
-  </body>
+</body>
+
 </html
