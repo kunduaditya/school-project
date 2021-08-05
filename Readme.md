@@ -1,7 +1,5 @@
 # Aditya Kumar (Class X-D) School Projects
 
-# Aditya Kumar (Class X-D) School Projects
-
 These are Some of my Projects Made by me So Far...
 
 ## Projects Made
