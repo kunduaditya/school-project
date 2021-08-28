@@ -30,7 +30,12 @@ These are Some of my Projects Made by me So Far...
 - [Unordered List](https://aditya-project.netlify.app/unorderedList.html)
 - [Defination List](https://aditya-project.netlify.app/definationList.html)
 - [Nested List](https://aditya-project.netlify.app/nestedList.html)
+<<<<<<< Updated upstream
 <!-- - [](https://aditya-project.netlify.app/) --->
+=======
+- [Forms](https://aditya-project.netlify.app/forms.html)
+<!-- - [](https://aditya-project.netlify.app/) -->
+>>>>>>> Stashed changes
 
 ## Author
 
