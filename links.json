@@ -118,5 +118,10 @@
     "projectName": "Nested List",
     "link": "nestedList.html",
     "target": "_self"
+  },
+  {
+    "projectName": "Student Table",
+    "link": "student-table.html",
+    "target": "_self"
   }
 ]
