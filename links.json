@@ -123,5 +123,15 @@
     "projectName": "Student Table",
     "link": "student-table.html",
     "target": "_self"
+  },
+  {
+    "projectName": "Text Properties",
+    "link": "css.html",
+    "target": "_self"
+  },
+  {
+    "projectName": "<font color='red'>Activity</font>",
+    "link": "activity.html",
+    "target": "_self"
   }
 ]
