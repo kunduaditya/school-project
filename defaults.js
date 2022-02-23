@@ -1,6 +1,10 @@
 const template = (head, title, body) => {
   const link = window.location.href.split("/").pop();
   const file = link.replace(/%20/g, " ");
+  // Add .html to the end of the link if it's not there
+  if (!file.endsWith(".html")) {
+    file += ".html";
+  }
   const header_code = `
       <div class="header-name">
         <img src="img/profile.jpg" alt="" height="60px" />
