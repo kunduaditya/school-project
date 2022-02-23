@@ -133,5 +133,10 @@
     "projectName": "<font color='red'>Activity</font>",
     "link": "activity.html",
     "target": "_self"
+  },
+  {
+    "projectName": "<font color='red'>Table Practice</font>",
+    "link": "table-practice.html",
+    "target": "_self"
   }
 ]
