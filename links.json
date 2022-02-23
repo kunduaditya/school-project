@@ -138,5 +138,10 @@
     "projectName": "<font color='red'>Table Practice</font>",
     "link": "table-practice.html",
     "target": "_self"
+  },
+  {
+    "projectName": "5 Beautiful Quotes - REVISED",
+    "link": "5 Beautiful Quotes-re.html",
+    "target": "_self"
   }
 ]

@@ -1,3 +1,6 @@
+* {
+  transition: all 0.2s ease-in-out;
+}
 body {
   color: #fff;
   background-color: #08091c;
@@ -42,9 +45,22 @@ code {
   font-size: 15px;
 }
 .content {
-  width: 50%;
+  width: calc(50% - 40px);
   margin-left: 25%;
+  border: 2px dashed #fff;
+  padding: 20px;
 }
+.table-container {
+  overflow-x: auto;
+}
+.table-container::after {
+  content: "Scroll Right ➡️";
+  color: wheat;
+}
+header div:last-child p {
+  text-overflow: ellipsis;
+}
+
 @media only screen and (max-width: 400px) {
   header {
     flex-direction: column;
@@ -57,12 +73,9 @@ code {
     margin-top: 110px;
   }
   .content {
-    width: 90%;
+    width: calc(90% - 40px);
     margin-left: 0;
     margin-left: 5%;
-  }
-  .table-container {
-    overflow-x: auto;
   }
 }
 footer {
@@ -72,6 +85,7 @@ footer {
   border-top-left-radius: 22px;
   border-top-right-radius: 22px;
   padding: 10px;
+  border-top: 2px dashed #fff;
 }
 footer strong,
 b {
@@ -89,4 +103,16 @@ footer strong::before {
   color: #000;
   transition: background-color 5s;
   border-radius: 22px;
+  width: 90%;
+  margin-left: 5%;
+}
+.toggle {
+  height: 60px;
+  min-width: fit-content;
+  width: 50%;
+  font-size: large;
+  border-radius: 22px;
+  border: 0;
+  background-color: #fff;
+  cursor: pointer;
 }
