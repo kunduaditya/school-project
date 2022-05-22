@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BILL</title>
+    <script src="defaults.js"></script>
+  </head>
+  <body>
+    <table>
+      <thead bgcolor="orange">
+        <th>Book</th>
+        <th>Price</th>
+      </thead>
+      <tbody bgcolor="green">
+        <tr>
+          <td>The Guide</td>
+          <td id="price1">loading...</td>
+        </tr>
+        <tr>
+          <td>Midnight's Children</td>
+          <td id="price2">loading...</td>
+        </tr>
+      </tbody>
+      <tbody bgcolor="pink">
+        <td>Total</td>
+        <td id="total"></td>
+      </tbody>
+    </table>
+  </body>
+  <script>
+    document.getElementById("total").innerText = "loading...";
+    setTimeout(loading, 1000);
+    setTimeout(calculate, 2000);
+    function loading() {
+      document.getElementById("price1").innerText =
+        "$" + Math.floor(Math.random() * 1000);
+      document.getElementById("price2").innerText =
+        "$" + Math.floor(Math.random() * 1000);
+      document.getElementById("total").innerText = "Calculating...";
+    }
+    function calculate() {
+      const price1 = parseInt(
+        document.getElementById("price1").innerText.replace("$", "")
+      );
+      const price2 = parseInt(
+        document.getElementById("price2").innerText.replace("$", "")
+      );
+      const total = price1 + price2;
+      document.getElementById("total").innerText = "$" + total;
+    }
+  </script>
+</html>

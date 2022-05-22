@@ -143,5 +143,15 @@
     "projectName": "5 Beautiful Quotes - REVISED",
     "link": "5 Beautiful Quotes-re.html",
     "target": "_self"
+  },
+  {
+    "projectName": "TERM-II Board Revision",
+    "link": "term-2-table-revision.html",
+    "target": "_self"
+  },
+  {
+    "projectName": "Bill",
+    "link": "bill.html",
+    "target": "_self"
   }
 ]
